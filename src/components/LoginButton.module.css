@@ -1,0 +1,47 @@
+.loginButtonChild {
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 115px;
+  height: 49px;
+}
+.login {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-poppins);
+  color: var(--color-lightgreen);
+  text-align: left;
+  display: inline-block;
+  width: 140px;
+  height: 42px;
+  flex-shrink: 0;
+  margin-left: -95px;
+}
+.loginButton,
+.loginButton1 {
+  position: absolute;
+  height: 49px;
+}
+.loginButton1 {
+  top: 0;
+  left: 0;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 29px;
+  left: 360px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 115px;
+}

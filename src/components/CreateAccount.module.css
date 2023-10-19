@@ -1,0 +1,28 @@
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-50px) rotate(-540deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.createAccount {
+  margin: 0;
+  position: absolute;
+  top: 114px;
+  left: 49px;
+  font-size: var(--font-size-38xl);
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 473px;
+  height: 84px;
+  opacity: 0;
+}
+.createAccount.animate {
+  animation: 1s ease 0s 1 normal forwards roll-in-left;
+}

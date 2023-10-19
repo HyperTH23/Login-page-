@@ -1,0 +1,113 @@
+.loginInterfaceSubChild {
+  position: absolute;
+  top: 198px;
+  left: 49px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 572px;
+  height: 570px;
+}
+.createAccountButton,
+.createAccountButton1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 61px;
+  height: 60px;
+}
+.createAccountButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 643px;
+  left: 542px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.password1 {
+  position: relative;
+  display: inline-block;
+  width: 194px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.passwordChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 444px;
+  height: 62px;
+}
+.password3 {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-8xl);
+  background-color: transparent;
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  color: var(--color-lightgreen);
+  text-align: left;
+  display: inline-block;
+  width: 404px;
+  height: 40px;
+}
+.password2 {
+  position: relative;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 444px;
+  height: 62px;
+}
+.email,
+.lastName,
+.password {
+  position: absolute;
+  top: 592px;
+  left: 76px;
+  width: 444px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.email,
+.lastName {
+  top: 470px;
+}
+.lastName {
+  top: 348px;
+  left: 78px;
+}
+.firstName,
+.loginInterfaceSub {
+  position: absolute;
+  font-size: var(--font-size-8xl);
+  font-family: var(--font-poppins);
+}
+.firstName {
+  border: 0;
+  background-color: transparent;
+  top: 226px;
+  left: 78px;
+  width: 444px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginInterfaceSub {
+  top: calc(50% - 450px);
+  left: 719px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-300);
+  width: 681px;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  color: var(--color-dimgray);
+}

@@ -1,0 +1,123 @@
+.soil {
+  color: var(--color-sienna);
+}
+.screen {
+  color: var(--color-white);
+}
+.fromSoilToContainer {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 192.22px);
+  left: calc(50% - 286px);
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 572px;
+  height: 84px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logoPart1,
+.logoPart2 {
+  position: absolute;
+  height: 17.16%;
+  width: 23.18%;
+  top: 33.22%;
+  right: 33%;
+  bottom: 49.62%;
+  left: 43.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoPart1 {
+  height: 82.38%;
+  width: 74.04%;
+  top: 0;
+  right: 8.18%;
+  bottom: 17.62%;
+  left: 17.78%;
+}
+.agrismartLogo2 {
+  position: absolute;
+  top: 180.56px;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 572px;
+  height: 552.44px;
+}
+.agrismart {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 89.88px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 388px;
+  height: 60px;
+}
+.logoPart3,
+.logoPart4 {
+  position: absolute;
+  height: 18.5%;
+  width: 4.57%;
+  top: 47%;
+  right: 90.3%;
+  bottom: 34.5%;
+  left: 5.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoPart4 {
+  height: 88.81%;
+  width: 14.6%;
+  top: 11.19%;
+  right: 85.4%;
+  bottom: 0;
+  left: 0;
+}
+.agrismartLogo1 {
+  position: absolute;
+  top: 0;
+  left: 18.13px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 477.88px;
+  height: 85.92px;
+  font-size: var(--font-size-38xl);
+  color: var(--color-white);
+}
+.agrismartLogo {
+  position: absolute;
+  top: 47px;
+  left: 73px;
+  width: 572px;
+  height: 733px;
+}
+.loginPage,
+.loginPageInterface {
+  position: relative;
+  overflow: hidden;
+}
+.loginPageInterface {
+  border-radius: var(--br-31xl);
+  background: linear-gradient(180deg, #6ebc52, rgba(49, 159, 11, 0));
+  width: 1440px;
+  height: 1024px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--color-lightgreen);
+  font-family: var(--font-poppins);
+}
+.loginPage {
+  background-color: var(--color-gray-100);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: normal;
+}

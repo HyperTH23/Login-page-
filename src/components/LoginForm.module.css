@@ -1,0 +1,245 @@
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.loginInterfaceSubChild {
+  position: absolute;
+  top: 198px;
+  left: 49px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 572px;
+  height: 332px;
+}
+.welcomeBack {
+  margin: 0;
+  position: absolute;
+  top: 114px;
+  left: 49px;
+  font-size: var(--font-size-38xl);
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--color-white);
+  display: inline-block;
+  width: 473px;
+  height: 84px;
+}
+.welcomeBack:active,
+.welcomeBack:hover {
+  animation: 1s ease 0s infinite normal none rotate-center;
+  opacity: 1;
+}
+.createAccountButton,
+.loginButton {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 69px;
+  height: 68px;
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 433px;
+  left: 542px;
+  width: 60px;
+  height: 60px;
+}
+.password1 {
+  position: relative;
+  display: inline-block;
+  width: 194px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.passwordChild {
+  border: 1px solid var(--color-lightgreen);
+  background-color: var(--color-white);
+  position: relative;
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  width: 444px;
+  height: 62px;
+}
+.passwordItem {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.passwordInner {
+  position: absolute;
+  top: 18px;
+  left: 114px;
+  width: 6px;
+  height: 13px;
+  overflow: hidden;
+}
+.password2 {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 444px;
+  height: 62px;
+}
+.emailChild,
+.password {
+  position: absolute;
+  width: 444px;
+}
+.password {
+  top: 371px;
+  left: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.emailChild {
+  border: 1px solid var(--color-lightgreen);
+  background-color: var(--color-white);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  height: 62px;
+}
+.email,
+.email2 {
+  position: relative;
+  width: 444px;
+  height: 62px;
+}
+.email {
+  position: absolute;
+  top: 216px;
+  left: 98px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+}
+.email.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.signUpButtonChild {
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 139px;
+  height: 49px;
+}
+.signUp {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-lightgreen);
+  text-align: left;
+  display: inline-block;
+  width: 140px;
+  height: 42px;
+  flex-shrink: 0;
+  margin-left: -126px;
+}
+.signUpButton1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 153px;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.signUpButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 29px;
+  left: 500px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 140px;
+  height: 49px;
+}
+.loginButtonChild {
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 115px;
+  height: 49px;
+}
+.login {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-lightgreen);
+  text-align: left;
+  display: inline-block;
+  width: 140px;
+  height: 42px;
+  flex-shrink: 0;
+  margin-left: -95px;
+}
+.loginButton1,
+.loginButton2 {
+  position: absolute;
+  height: 49px;
+}
+.loginButton2 {
+  top: 0;
+  left: 0;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.loginButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 29px;
+  left: 362px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 114px;
+}
+.loginInterfaceSub {
+  position: absolute;
+  top: calc(50% - 450px);
+  left: 719px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-300);
+  width: 681px;
+  height: 680px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}

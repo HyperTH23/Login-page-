@@ -1,0 +1,102 @@
+.soil {
+  color: var(--color-sienna);
+}
+.screen {
+  color: var(--color-white);
+}
+.fromSoilToContainer {
+  margin: 0;
+  position: absolute;
+  top: calc(50% + 175px);
+  left: calc(50% - 286px);
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 572px;
+  height: 84px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logoPart1,
+.logoPart2 {
+  position: absolute;
+  height: 16.09%;
+  width: 21.89%;
+  top: 31.14%;
+  right: 33.94%;
+  bottom: 52.78%;
+  left: 44.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoPart1 {
+  height: 77.22%;
+  width: 69.93%;
+  top: 0;
+  right: 10.49%;
+  bottom: 22.78%;
+  left: 19.58%;
+}
+.agrismartLogo2 {
+  position: absolute;
+  top: 153px;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 572px;
+  height: 518px;
+}
+.agrismart {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 84.94px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 388px;
+  height: 60px;
+}
+.logoPart3,
+.logoPart4 {
+  position: absolute;
+  height: 20.01%;
+  width: 4.36%;
+  top: 42.68%;
+  right: 90.74%;
+  bottom: 37.31%;
+  left: 4.9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoPart4 {
+  height: 96.05%;
+  width: 13.93%;
+  top: 3.95%;
+  right: 86.07%;
+  bottom: 0;
+  left: 0;
+}
+.agrismartLogo1 {
+  position: absolute;
+  top: 0;
+  left: 33.06px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 472.94px;
+  height: 69.83px;
+  font-size: var(--font-size-38xl);
+  color: var(--color-white);
+}
+.agrismartLogo {
+  position: absolute;
+  top: 47px;
+  left: 53px;
+  width: 572px;
+  height: 671px;
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--color-lightgreen);
+  font-family: var(--font-poppins);
+}

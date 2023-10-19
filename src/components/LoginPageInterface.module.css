@@ -1,0 +1,13 @@
+.loginPageInterface {
+  position: relative;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(180deg, #6ebc52, rgba(49, 159, 11, 0));
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}
